@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useCallback } from 'react';
 import { Steps } from 'antd';
 import styled from 'styled-components';
 import { useDispatch, useSelector } from 'react-redux';
@@ -11,11 +11,11 @@ const Status = () => {
   const dispatch = useDispatch();
   const { step } = useSelector((state) => state.step);
 
-  const increment = () => {
+  const increment = useCallback(() => {
     if (step <= 2) {
       dispatch(stepActions.increment());
     }
-  };
+  }, []);
 
   useEffect(() => {
     setTimeout(increment, 5000);
