@@ -1,0 +1,64 @@
+.home {
+  height: 80vh;
+  width: 100vw;
+}
+
+.left {
+  width: 50%;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+.rigth {
+  width: 50%;
+}
+
+.blob {
+  height: 120%;
+  width: 120%;
+  position: absolute;
+  top: -40%;
+  right: -37%;
+  z-index: -10;
+}
+
+.home__cake {
+  height: 40%;
+  width: 20%;
+  position: absolute;
+  top: 35%;
+  right: 30%;
+}
+
+.left__text {
+  margin-left: 10%;
+}
+
+.home__actions {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.iconContainer {
+  align-items: center;
+  display: flex;
+  margin-right: 20%;
+}
+.icon {
+  cursor: pointer;
+  margin-left: 100%;
+  transition: color 0.2s ease-in-out;
+}
+.icon:hover .main_icon {
+  color: #ec524b;
+  opacity: 0.5;
+}
+a {
+  color: #bbbfca;
+}

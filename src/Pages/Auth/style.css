@@ -1,0 +1,78 @@
+.main {
+  height: 100vh;
+  width: 100vw;
+  background-color: #fafbfc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__card {
+  background-color: #fff;
+  height: 50%;
+  width: 35%;
+  padding: 40px;
+  border: 1px solid #f2f3f4;
+}
+.card__header p {
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #1c2b2d;
+}
+.card__header {
+  text-align: center;
+}
+.form__container {
+  height: 70%;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.field input {
+  height: 40px;
+  padding: 10px;
+  font-size: 19px;
+  color: #1c2b2d;
+  border: none;
+  border-bottom: 2px solid #f4f5f9;
+  font-family: 'Steradian Light', sans-serif;
+  transition: border-bottom 0.2s ease-in-out;
+}
+
+.field input::placeholder {
+  font-family: 'Steradian Light', sans-serif;
+}
+.field input:focus {
+  border-bottom: 2px solid #1263c5;
+}
+.submit__btn {
+  height: 40px;
+  margin-top: 40px;
+  width: 100%;
+  cursor: pointer;
+  display: block;
+  border: none;
+  background: #2d6187;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 19px;
+  transition: background 0.1s ease-in-out;
+}
+.submit__btn:hover {
+  background: #3797a4;
+}
+.footer {
+  cursor: pointer;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer p {
+  letter-spacing: 0.7px;
+}
+
+.goToPage {
+  letter-spacing: 0.7px;
+  color: #000;
+}

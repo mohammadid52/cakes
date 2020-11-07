@@ -1,0 +1,25 @@
+.floating__button-container {
+  position: fixed;
+  bottom: 60px;
+  right: 40px;
+  cursor: pointer;
+  z-index: 999;
+}
+.fixed-button button {
+  border: none;
+  height: 60px;
+  width: 60px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+    0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.fixed-button button span {
+  margin-top: 2px;
+  margin-left: -1px;
+}

@@ -1,0 +1,59 @@
+*:focus {
+  outline: none;
+}
+
+@font-face {
+  font-family: 'Steradian Black Italic';
+  src: local('Steradian Black Italic'),
+    url('./Fonts/Steradian\ Black\ Italic.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Steradian Black';
+  src: local('Steradian Black'), url('./Fonts/Steradian\ Black.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Steradian Bold Italic';
+  src: local('Steradian Bold Italic'), url('./Fonts/Steradian\ Bold\ Italic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Steradian UltraLight';
+  src: local('Steradian UltraLight'), url('./Fonts/Steradian\ UltraLight.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Steradian Light';
+  src: local('Steradian Light'), url('./Fonts/Steradian\ Light.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Steradian Bold';
+  src: local('Steradian Bold'), url('./Fonts/Steradian\ Bold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Steradian Medium';
+  src: local('Steradian Medium'), url('./Fonts/Steradian\ Medium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Steradian Regular';
+  src: local('Steradian Regular'), url('./Fonts/Steradian\ Regular.otf') format('opentype');
+}
+
+.wrapper {
+  margin-right: auto; /* 1 */
+  margin-left: auto; /* 1 */
+
+  max-width: 95%; /* 2 */
+
+  padding-right: 10px; /* 3 */
+  padding-left: 10px; /* 3 */
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+/* a:focus,
+a:hover {
+  color: none;
+} */

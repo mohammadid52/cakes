@@ -13,6 +13,7 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
+    'implicit-arrow-linebreak': 0,
     'max-len': ['error', { code: 100 }],
     'prefer-promise-reject-errors': ['off'],
     'react/jsx-filename-extension': ['off'],
@@ -29,5 +30,7 @@ module.exports = {
     indent: 0,
     'implicit-arrow-linebreak ': 0,
     'operator-linebreak': 0,
+    'jsx-a11y/no-noninteractive-element-interactions': 0,
+    'jsx-a11y/click-events-have-key-events': 0,
   },
 };

@@ -1,0 +1,7 @@
+.logout:hover {
+  color: #ec524b;
+  border-bottom: 4px solid #ec524b;
+}
+.hide {
+  display: none;
+}

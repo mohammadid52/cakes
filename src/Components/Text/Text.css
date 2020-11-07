@@ -1,0 +1,39 @@
+.text {
+  font-size: 24px;
+  font-family: 'Steradian Regular', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* font-size */
+
+.small {
+  font-size: 16px;
+}
+
+.large {
+  font-size: 32px;
+}
+.extraLarge {
+  font-size: 80px;
+}
+
+/* font-weight */
+
+.light {
+  font-family: 'Steradian Light', sans-serif;
+}
+.medium {
+  font-family: 'Steradian Medium', sans-serif;
+}
+.bold {
+  font-family: 'Steradian Bold', sans-serif;
+}
+.boldItalic {
+  font-family: 'Steradian Bold Italic', sans-serif;
+}
+.pageTitle {
+  color: #2a3d66;
+  margin-left: 85px;
+  margin-bottom: 0;
+}

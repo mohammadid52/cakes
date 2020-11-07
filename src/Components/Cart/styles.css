@@ -1,0 +1,11 @@
+.ant-popover-inner-content {
+  color: #333;
+  overflow-y: scroll;
+  max-height: 400px;
+
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+.ant-popover-inner {
+  border-radius: 15px !important;
+}

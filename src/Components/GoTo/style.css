@@ -1,0 +1,48 @@
+.topLeft {
+  position: absolute;
+  top: 40px;
+  left: 70px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.topLeft:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.topRight {
+  position: absolute;
+  top: 40px;
+  right: 70px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.topRight:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.bottomRight {
+  position: absolute;
+  bottom: 40px;
+  right: 70px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.bottomRight:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
