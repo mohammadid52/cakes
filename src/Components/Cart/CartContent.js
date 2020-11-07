@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-one-expression-per-line */
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import './styles.css';
 import { MdCancel } from 'react-icons/md';
@@ -10,7 +10,7 @@ import { cakeActions, homeActions } from '../../Redux/Actions';
 
 const CartContent = ({ cart }) => {
   const { uid } = useSelector((state) => state.firebase.auth);
-  const { reloading } = useSelector((state) => state.home);
+
   const dispatch = useDispatch();
   const history = useHistory();
 
@@ -20,10 +20,7 @@ const CartContent = ({ cart }) => {
     dispatch(homeActions.startReload());
   };
   const [showCancel, setShowCancel] = useState(false);
-  const shouldReload = !!reloading;
-  useEffect(() => {
-    dispatch(homeActions.stopReload());
-  }, [shouldReload, dispatch]);
+
   const goToCart = () => {
     history.push('/cart');
   };
