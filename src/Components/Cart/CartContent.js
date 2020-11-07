@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-one-expression-per-line */
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import './styles.css';
@@ -22,7 +23,7 @@ const CartContent = ({ cart }) => {
   const shouldReload = !!reloading;
   useEffect(() => {
     dispatch(homeActions.stopReload());
-  }, [shouldReload]);
+  }, [shouldReload, dispatch]);
   const goToCart = () => {
     history.push('/cart');
   };
@@ -76,6 +77,9 @@ const CancelButton = styled(MdCancel)`
 
 CartContent.propTypes = {
   cart: PropTypes.shape({
+    name: PropTypes.string,
+    quantity: PropTypes.number,
+    cakeId: PropTypes.string,
     length: PropTypes.any,
   }).isRequired,
 };

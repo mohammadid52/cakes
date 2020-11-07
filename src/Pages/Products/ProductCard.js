@@ -1,4 +1,3 @@
-/* eslint-disable no-nested-ternary */
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch, useSelector } from 'react-redux';
@@ -50,7 +49,9 @@ const ProductCard = ({ data }) => {
 
 ProductCard.propTypes = {
   data: PropTypes.shape({
-    length: PropTypes.any,
+    name: PropTypes.string.isRequired,
+    img: PropTypes.any,
+    price: PropTypes.string.isRequired,
   }).isRequired,
 };
 

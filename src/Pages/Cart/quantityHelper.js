@@ -14,6 +14,7 @@ const cartMultiplier = (cart) => {
     } else {
       finalizedArr[index] = { ...finalizedArr[index], quantity: finalizedArr[index].quantity + 1 };
     }
+    return null;
   });
 
   return finalizedArr.map((d) => ({

@@ -19,7 +19,7 @@ const Status = () => {
 
   useEffect(() => {
     setTimeout(increment, 5000);
-  }, [step]);
+  }, [step, increment]);
 
   return (
     <Wrapper>

@@ -39,7 +39,7 @@ const App = () => {
             <Home />
           </section>
           <section id="products" className="products wrapper">
-            <Products cart={cart} />
+            <Products />
           </section>
           {cakeNumber > 0 ? (
             <Tooltip title="show cart">

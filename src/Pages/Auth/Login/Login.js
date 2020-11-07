@@ -52,7 +52,7 @@ const Register = () => {
                 Forgot Password?
               </Link>
               <Link className="goToPage" to="/register">
-                Don't have an account?
+                Don&apos;t have an account?
               </Link>
             </div>
           </div>
