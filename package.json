@@ -25,6 +25,7 @@
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "redux-firestore": "^0.14.0",
+    "redux-thunk": "^2.3.0",
     "semantic-ui-react": "^2.0.1",
     "sendemail": "^4.0.1",
     "styled-components": "^5.2.1"
