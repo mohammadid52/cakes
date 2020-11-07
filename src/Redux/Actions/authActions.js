@@ -1,4 +1,4 @@
-import Firebase from '../../firebaseConfig';
+import Firebase from '../../firebase';
 import * as ActionTypes from '../Types';
 
 export const register = (credentials) => async (dispach) => {

@@ -1,7 +1,7 @@
 import { notification } from 'antd';
 
 import * as ActionTypes from '../Types';
-import Firebase from '../../firebaseConfig';
+import Firebase from '../../firebase';
 
 const userRef = Firebase.firestore().collection('users');
 export const addCakeToCart = (uid, cake) => (dispatch) => {

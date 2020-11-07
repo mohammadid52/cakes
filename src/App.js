@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import { ReactReduxFirebaseProvider } from 'react-redux-firebase';
 import { createFirestoreInstance } from 'redux-firestore';
 import MainApp from './Pages/App/MainApp';
-import firebase, { rrfConfig } from './firebaseConfig';
+import firebase, { rrfConfig } from './firebase';
 import store from './Redux/Store';
 import PageLoading from './Pages/PageLoading';
 
