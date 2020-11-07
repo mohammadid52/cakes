@@ -15,7 +15,7 @@ const Status = () => {
     if (step <= 2) {
       dispatch(stepActions.increment());
     }
-  }, [step]);
+  }, [step, dispatch]);
 
   useEffect(() => {
     setTimeout(increment, 5000);
